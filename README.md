@@ -7,4 +7,6 @@ With a good reader on one half, the other half can send morse code with the touc
 
 Can be used with Pessurized Crystal for timing. -Jamoni
 
+Can be used to power SCUBA gear. -Theo
+
 
