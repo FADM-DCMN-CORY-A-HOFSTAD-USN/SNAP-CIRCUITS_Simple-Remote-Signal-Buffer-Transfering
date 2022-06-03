@@ -1,0 +1,2 @@
+# SNAP-CIRCUITS_Simple-Remote-Signal-Buffer-Transfering
+This is a simple circuit that is designed to be broken into two pieces. The two pieces transfer signals and electrical power over remote distances with unlimited reach. The circuit is simple and designed for dense manufacturing. This circuit was designed by the Criptonian Workers Union (CRIPS) to support remote mission power, communication transfer, computer data trasnmission, etc.
