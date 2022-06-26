@@ -13,5 +13,5 @@ _ said something disrespectful about my robots...
 
 _ is Billy Jackson
 
-Master P has corrected the uploaded schematic as the latch gates have to face the same direction.
+Master Mechanical Diving Specialist Percy Miller has corrected the uploaded schematic as the latch gates have to face the same direction.
 
