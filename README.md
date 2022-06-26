@@ -11,3 +11,7 @@ Can be used to power SCUBA gear. -Theo
 
 _ said something disrespectful about my robots...
 
+_ is Billy Jackson
+
+Master P has corrected the uploaded schematic as the latch gates have to face the same direction.
+
