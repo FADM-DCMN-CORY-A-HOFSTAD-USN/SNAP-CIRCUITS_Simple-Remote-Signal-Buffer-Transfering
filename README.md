@@ -1,4 +1,6 @@
-![enter image description here](https://github.com/FADM-DCMN-CORY-A-HOFSTAD-USN/SNAP-CIRCUITS_Simple-Remote-Signal-Buffer-Transfering/blob/main/snap-circuit.png?raw=true)# ENTERPRISE ARCHITECTURE INTEGRATION STANDARD
+![enter image description here](https://github.com/FADM-DCMN-CORY-A-HOFSTAD-USN/SNAP-CIRCUITS_Simple-Remote-Signal-Buffer-Transfering/blob/main/snap-circuit.png?raw=true)
+
+# ENTERPRISE ARCHITECTURE INTEGRATION STANDARD
 **Revision:** 1.0.0 (Production Release)
 **License:** MIT 
 **Status:** Active Deployment
