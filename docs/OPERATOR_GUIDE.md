@@ -51,6 +51,18 @@ This document outlines the safe procedure for using the TUF Tactical Breaker Cas
 5.  **Repeat:** Perform this for both the Local and Remote nodes.
 
 ## 3. Storage and Safety
+1.  **The Material Constraint:** You cannot print this in standard PLA or standard flexible TPU. You must load your printer with a certified **ESD-Safe Flexible Filament** (like 3DXSTAT™ ESD TPU).
+
+2.  **The "Zip" Mechanics:** The `zipper_rails()` module generates a male locking bulb and a female C-clamp. Because TPU is a thermoplastic elastomer (rubber-like), when you squeeze the top of the printed bag, the female clamp stretches open, accepts the male bulb, and snaps shut. This creates a mechanical physical seal, protecting the RT hardware from physical dust and environmental humidity.
+
+3.  **The Print Profile:** * **Extrusion Multiplier:** Set to `1.10` (110%). Flexible carbon filaments can sometimes under-extrude. Over-extruding slightly guarantees the walls of the bag are completely airtight with no microscopic gaps between the layer lines.
+
+    -   **Infill:** `100%`. An anti-static bag relies on a continuous carbon web. If you leave hollow air pockets inside the walls of the print, static electricity can arc across the gaps.
+
+To compile this into a manufacturing file, use your existing CLI tooling:
+
+openscad -o hardware/rt_esd_zipper_pouch.stl hardware/rt_esd_zipper_pouch.scad
+
 * **Contamination:** The cap is non-porous. It prevents oxidation of the gold lattice and stops biological particles from reaching the quantum gates.
 * **Handling:** Always store the fractured nodes inside the armored cases. The caps are designed to remain on the board during transport and motherboard insertion.
 
