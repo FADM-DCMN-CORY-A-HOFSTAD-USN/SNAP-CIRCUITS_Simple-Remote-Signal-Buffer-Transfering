@@ -2,7 +2,7 @@
 Hexadecimal TPM and NVIDIA SMI Monitor
 Secures the quantum latch state and outputs hardware telemetry in native Hex.
 """
-
+hex_rt_infrastructure.py ..hex_rt_infrastructure import RTPhaseChangeThermalInterface, RTGuardRing
 class HexNativeTPM_SMI:
     def __init__(self, node_id: str):
         self.device_id = f"TUF_QUANTUM_TPM_{node_id}"
