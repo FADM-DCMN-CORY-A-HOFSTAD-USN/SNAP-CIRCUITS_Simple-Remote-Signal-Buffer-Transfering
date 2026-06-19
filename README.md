@@ -2,7 +2,7 @@
 
 # ENTERPRISE ARCHITECTURE INTEGRATION STANDARD
 **Revision:** 1.0.0 (Production Release)
-**License:** MIT 
+**License:** Boost 
 **Status:** Active Deployment
 
 ## 1. Aerospace & Defense (Boeing / Lockheed Martin)
