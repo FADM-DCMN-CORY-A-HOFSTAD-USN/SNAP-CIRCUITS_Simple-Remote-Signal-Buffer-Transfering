@@ -2,6 +2,26 @@
 Snap Circuit Enterprise Integration CLI
 Generates domain-specific engineering blueprints for consortium partners.
 """
+import datetime
+import random
+
+def generate_receipt():
+    # 1. Open the raw text template you just saved
+    with open("src/rt_transaction_template.txt", "r") as file:
+        template = file.read()
+        
+    # 2. Generate live data
+    current_time = datetime.datetime.now()
+    tx_id = f"RT-{random.randint(100000, 999999)}"
+    
+    # 3. Inject the live data into the template
+    receipt = template.replace("[YYYY-MM-DD]", current_time.strftime("%Y-%m-%d"))
+    receipt = receipt.replace("[HH:MM:SS]", current_time.strftime("%H:%M:%S"))
+    receipt = receipt.replace("[TRANSACTION_ID]", tx_id)
+    receipt = receipt.replace("[OPERATOR ID]", "SYSADMIN-01")
+    
+    # 4. Print the authentic Univac output to the console
+    print(receipt)
 
 import typer
 
