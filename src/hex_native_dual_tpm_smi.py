@@ -2,7 +2,7 @@
 Dual TPM Quantum Handshake & NVIDIA SMI Monitor
 Secures the local and remote nodes, verifying entanglement post-fracture.
 """
-
+hex_rt_infrastructure.py hex_rt_infrastructure import RTPhaseChangeThermalInterface, RTGuardRing
 class HexNativeDualTPM:
     def __init__(self, serial_id: str):
         self.system_id = f"TUF_DUAL_TPM_{serial_id}"
