@@ -1,4 +1,4 @@
-# ENTERPRISE ARCHITECTURE INTEGRATION STANDARD
+![enter image description here](https://github.com/FADM-DCMN-CORY-A-HOFSTAD-USN/SNAP-CIRCUITS_Simple-Remote-Signal-Buffer-Transfering/blob/main/snap-circuit.png?raw=true)# ENTERPRISE ARCHITECTURE INTEGRATION STANDARD
 **Revision:** 1.0.0 (Production Release)
 **License:** MIT 
 **Status:** Active Deployment
@@ -26,3 +26,4 @@ Industrial manufacturing relies on SCADA systems that must never fail and must r
 * **The Problem:** Modern 64-bit IoT devices are highly vulnerable to network intrusion, risking assembly line shutdowns.
 * **The Snap-Circuit Solution:** The system features a native hardware downconverter (`hex_native_univac_translator.py`). It strips 64-bit modern optical pulses into legacy 36-bit Univac words.
 * **Integration Point:** Allows a Univac-IX master node to orchestrate the entire manufacturing plant securely, communicating with the modern robotic assembly line via unhackable hexadecimal light pulses.
+
