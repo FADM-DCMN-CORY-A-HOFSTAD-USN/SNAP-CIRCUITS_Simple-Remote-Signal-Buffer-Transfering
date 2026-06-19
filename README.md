@@ -1,4 +1,6 @@
-![2022 Rendering of Correo Hofstad's quantum "Snap!" circuit](https://github.com/FADM-DCMN-CORY-A-HOFSTAD-USN/SNAP-CIRCUITS_Simple-Remote-Signal-Buffer-Transfering/blob/main/snap-circuit.png?raw=true)# ENTERPRISE ARCHITECTURE INTEGRATION STANDARD
+![2022 Rendering of Correo Hofstad's quantum "Snap!" circuit](https://github.com/FADM-DCMN-CORY-A-HOFSTAD-USN/SNAP-CIRCUITS_Simple-Remote-Signal-Buffer-Transfering/blob/main/snap-circuit.png?raw=true)
+
+# ENTERPRISE ARCHITECTURE INTEGRATION STANDARD
 **Revision:** 1.0.0 (Production Release)
 **License:** MIT 
 **Status:** Active Deployment
